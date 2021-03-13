@@ -1,0 +1,14 @@
+{
+"name": "/mnt/ssd/tmp/tiles.mbtiles",
+"description": "/mnt/ssd/tmp/tiles.mbtiles",
+"version": "2",
+"minzoom": "3",
+"maxzoom": "16",
+"center": "129.745789,32.586164,16",
+"bounds": "122.931519,20.421865,153.989868,45.560218",
+"type": "overlay",
+"format": "pbf",
+"generator": "tile-join v1.36.0",
+"generator_options": "tippecanoe --no-progress-indicator --no-feature-limit --no-tile-size-limit '--simplification=2' --hilbert '--minimum-zoom=3' '--maximum-zoom=16' --force '--layer=default' --quiet '--output=/mnt/ssd/tmp/tiles.mbtiles'; tile-join --force --no-tile-compression '--output-to-directory=docs/zxy' --no-tile-size-limit /mnt/ssd/tmp/tiles.mbtiles",
+"json": "{\"vector_layers\": [ { \"id\": \"Cstline\", \"description\": \"\", \"minzoom\": 3, \"maxzoom\": 16, \"fields\": {\"name\": \"String\", \"orgGILvl\": \"Number\", \"type\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"Cstline\",\"count\": 4485437,\"geometry\": \"LineString\",\"attributeCount\": 3,\"attributes\": [{\"attribute\": \"name\",\"count\": 1,\"type\": \"string\",\"values\": [\"被災前海岸線\"]},{\"attribute\": \"orgGILvl\",\"count\": 6,\"type\": \"number\",\"values\": [0,1000,2500,25000,500,5000],\"min\": 0,\"max\": 25000},{\"attribute\": \"type\",\"count\": 3,\"type\": \"string\",\"values\": [\"その他\",\"海岸線\",\"露岩\"]}]}]}}"
+}
